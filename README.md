@@ -1,5 +1,3 @@
-# Smart-Traffic-Congestion-Predictor-and-Navigator
-Smart Traffic Congestion Predictor and Navigator using Random Forest, A* routing, and OpenStreetMap for Bengaluru, India.
 # Smart Traffic Congestion Predictor and Navigator
 
 An intelligent full-stack web application that predicts traffic congestion and recommends optimized driving routes across **Bengaluru, India**, using Machine Learning, Graph Theory, and real-world road network data.
