@@ -1,0 +1,18 @@
+{
+  "total": 8936,
+  "train": 6255,
+  "val": 1340,
+  "test": 1341,
+  "features": [
+    "Traffic Volume",
+    "Average Speed (km/h)",
+    "Travel Time Index",
+    "Road Capacity Utilization (%)",
+    "Incident Reports",
+    "DayOfWeek",
+    "Month",
+    "Weather Conditions",
+    "Roadwork and Construction Activity"
+  ],
+  "target": "CongestionLabel"
+}

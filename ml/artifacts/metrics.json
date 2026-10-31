@@ -1,0 +1,62 @@
+{
+  "model": "RandomForestClassifier",
+  "accuracy": 0.9016,
+  "classes": [
+    "HIGH",
+    "LOW",
+    "MEDIUM"
+  ],
+  "precision_per_class": {
+    "HIGH": 0.9786,
+    "LOW": 0.839,
+    "MEDIUM": 0.7609
+  },
+  "recall_per_class": {
+    "HIGH": 0.9305,
+    "LOW": 0.8776,
+    "MEDIUM": 0.8392
+  },
+  "f1_per_class": {
+    "HIGH": 0.9539,
+    "LOW": 0.8579,
+    "MEDIUM": 0.7982
+  },
+  "support_per_class": {
+    "HIGH": 834,
+    "LOW": 196,
+    "MEDIUM": 311
+  },
+  "macro_f1": 0.87,
+  "confusion_matrix": [
+    [
+      776,
+      0,
+      58
+    ],
+    [
+      0,
+      172,
+      24
+    ],
+    [
+      17,
+      33,
+      261
+    ]
+  ],
+  "test_set_size": 1341,
+  "total_records": 8936,
+  "n_features": 9,
+  "feature_names": [
+    "Traffic Volume",
+    "Average Speed (km/h)",
+    "Travel Time Index",
+    "Road Capacity Utilization (%)",
+    "Incident Reports",
+    "DayOfWeek",
+    "Month",
+    "Weather Conditions",
+    "Roadwork and Construction Activity"
+  ],
+  "is_demo_mode": false
+}

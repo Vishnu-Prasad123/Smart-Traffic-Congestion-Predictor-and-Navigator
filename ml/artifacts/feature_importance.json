@@ -1,0 +1,11 @@
+{
+  "Traffic Volume": 0.466673,
+  "Road Capacity Utilization (%)": 0.242006,
+  "Travel Time Index": 0.18878,
+  "Average Speed (km/h)": 0.037137,
+  "Incident Reports": 0.025886,
+  "Month": 0.016271,
+  "DayOfWeek": 0.013319,
+  "Weather Conditions": 0.008261,
+  "Roadwork and Construction Activity": 0.001667
+}
