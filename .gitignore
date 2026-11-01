@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.env
+venv/
+*.egg-info/
+.pytest_cache/
+
+# ML artifacts (committed: metrics.json, feature_importance.json; excluded: large model files)
+ml/artifacts/model.joblib
+ml/artifacts/preprocessor.joblib
+
+# Data (never commit raw datasets — follow Kaggle terms)
+data/raw/
+data/maps/*.graphml
+
+# Frontend
+frontend/node_modules/
+frontend/dist/
+frontend/.env
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
