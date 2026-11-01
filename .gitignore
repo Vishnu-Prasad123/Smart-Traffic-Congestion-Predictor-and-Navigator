@@ -1,29 +1,60 @@
-# Python
+ï»¿# Python
 __pycache__/
 *.py[cod]
+*$py.class
 *.so
-.env
 venv/
+.venv/
+env/
 *.egg-info/
 .pytest_cache/
 
-# ML artifacts (committed: metrics.json, feature_importance.json; excluded: large model files)
-ml/artifacts/model.joblib
-ml/artifacts/preprocessor.joblib
+# Environment and Secrets (CRITICAL: Never commit credentials/keys)
+.env
+.env.*
+*.env
+*.pem
+*.key
+*.cert
+*.pfx
+secrets/
 
-# Data (never commit raw datasets — follow Kaggle terms)
+# ML Artifacts (commit lightweight metrics/feature json; exclude large models/weights)
+ml/artifacts/*.joblib
+ml/artifacts/*.pkl
+ml/artifacts/*.h5
+ml/artifacts/*.pt
+ml/artifacts/*.onnx
+
+# Data (never commit raw datasets or large graph networks)
 data/raw/
 data/maps/*.graphml
+*.csv.gz
+
+# Runtime Caches & Logs
+cache/
+.cache/
+*.log
 
 # Frontend
 frontend/node_modules/
 frontend/dist/
 frontend/.env
+frontend/.env.*
 
-# OS
+# OS generated files
 .DS_Store
 Thumbs.db
+desktop.ini
 
-# IDE
+# IDE & Editors
 .vscode/
 .idea/
+*.sublime-project
+*.sublime-workspace
+
+# Archives
+*.zip
+*.tar.gz
+*.rar
+*.7z
